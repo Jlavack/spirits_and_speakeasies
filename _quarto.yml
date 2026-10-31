@@ -2,13 +2,17 @@ project:
   type: website
 
 website:
-  title: "Y"
+  title: "Spirits & Speakeasies"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
-
+      - href: characters.qmd
+        text: Characters
+      - href: sessions.qmd
+        text: Cocktails
+        icon: wine-glass
 format:
   html:
     theme:

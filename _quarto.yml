@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Spirits & Speakeasies"
@@ -12,7 +13,7 @@ website:
         text: Characters
       - href: sessions.qmd
         text: Cocktails
-        icon: wine-glass
+        icon: cup-straw
 format:
   html:
     theme:

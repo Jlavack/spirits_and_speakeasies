@@ -16,9 +16,13 @@ website:
       - about.qmd
       - href: characters.qmd
         text: Characters
+        icon: person-walking
       - href: sessions.qmd
         text: Cocktails
         icon: cup-straw
+      - href: felix_the_cat.qmd
+        text: Daily Funnies
+        icon: newspaper
         
 format:
   html:

@@ -3,6 +3,9 @@ title: "Characters"
 editor: visual
 ---
 
+* * *
+* * *
+
 # Player Characters:
 
 ```{=html}
@@ -12,11 +15,26 @@ editor: visual
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="assets/dom.jpeg" alt="Speakeasy">
+        <img src="assets/dom_ooa.jpg" alt="Dominic">
       </div>
       <div class="flip-card-back">
-        <h3>Dominic<br>The Boss</h3>
+        <h1>Dominic</h1>
+        <h2>The Boss</h2>
         <p>Probably a werewolf.</p>
+      </div>
+    </div>
+  </div>   
+  
+  <!-- Red -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="assets/red.png" alt="Red">
+      </div>
+      <div class="flip-card-back">
+        <h1>Red</h1>
+        <h2>The Muscle</h2>
+        <p>What're you lookin at?</p>
       </div>
     </div>
   </div>   
@@ -25,10 +43,11 @@ editor: visual
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="assets/raymond.png" alt="Speakeasy">
+        <img src="assets/raymond.png" alt="Raymond">
       </div>
       <div class="flip-card-back">
-        <h3>Raymond<br>The Driver</h3>
+        <h1>Raymond</h1>
+        <h2>The Driver</h2>
         <p>Too old for this shit.</p>
       </div>
     </div>
@@ -38,11 +57,12 @@ editor: visual
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="assets/the_gypsy.jpeg" alt="Speakeasy">
+        <img src="assets/the_gypsy.jpeg" alt="The Gypsy">
       </div>
       <div class="flip-card-back">
-        <h3>The Gypsy</h3>
-        <p>...</p>
+        <h1>The Gypsy</h1>
+        <h2></h2>
+        <p>Death</p>
       </div>
     </div>
   </div>  
@@ -51,14 +71,115 @@ editor: visual
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="assets/amalfi_2.jpg" alt="Speakeasy">
+        <img src="assets/amalfi_2.jpg" alt="Amalfi Agnolotti">
       </div>
       <div class="flip-card-back">
-        <h3>Amalfi Agnolotti</h3>
+        <h1>Amalfi Agnolotti</h1>
+        <h2>The Looks</h2>
         <p>Poon hound</p>
       </div>
     </div>
   </div>  
+  
+</div>
+```
+
+<br>
+<br>
+
+* * *
+* * *
+
+# Non-player Characters
+
+
+```{=html}
+<div class="card-row"
+ 
+ <!-- Alexi -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="assets/alexi_dead.png" alt="Alexi">
+      </div>
+      <div class="flip-card-back">
+        <h1>Golikov Alexi</h1>
+        <h2>The Big Boss</h2>
+        <p>BOOM!</p>
+      </div>
+    </div>
+  </div>   
+  
+  <!-- Anastasia -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="assets/anastasia.png" alt="Anastasia">
+      </div>
+      <div class="flip-card-back">
+        <h1>Golikov Anastasia</h1>
+        <h2>Golikov Mob Boss</h2>
+        <p>AWOOGA!</p>
+      </div>
+    </div>
+  </div>   
+  
+  <!-- Anna -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="assets/anna_missing.png" alt="Anna">
+      </div>
+      <div class="flip-card-back">
+        <h1>Golikov Anaa</h1>
+        <h2>The Princess</h2>
+        <p>AWOOGA! AWOOGA! HUBBA HUBBA!</p>
+      </div>
+    </div>
+  </div>   
+
+  <!-- Zanatovi -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="assets/zanatovi.png" alt="Zanatovi">
+      </div>
+      <div class="flip-card-back">
+        <h1>Zanatovi Capitani</h1>
+        <h2>The Bad Guy</h2>
+        <p>Won't stay dead.</p>
+      </div>
+    </div>
+  </div>  
+  
+  <!-- Felix -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="assets/Felix.png" alt="Felix the Cat">
+      </div>
+      <div class="flip-card-back">
+        <h1>Felix</h1>
+        <h2>The Cat</h2>
+        <p>He's up to something.</p>
+      </div>
+    </div>
+  </div>  
+  
+  <!-- Gyspy Matron -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="assets/gypsy_matron.jpeg" alt="Gypsy Matron">
+      </div>
+      <div class="flip-card-back">
+        <h1>Gypsy Matron</h1>
+        <h2>Reader of Fate</h2>
+        <p>Don't trust her.</p>
+      </div>
+    </div>
+  </div>  
+  
   
 </div>
 ```

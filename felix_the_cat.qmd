@@ -1,0 +1,4 @@
+---
+title: "Daily Funnies"
+editor: visual
+---

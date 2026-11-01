@@ -1,11 +1,16 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 4200
+    navigate: false
 
 website:
   title: "Spirits & Speakeasies"
-  navbar:
-    left:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
       - href: index.qmd
         text: Home
       - about.qmd
@@ -14,6 +19,7 @@ website:
       - href: sessions.qmd
         text: Cocktails
         icon: cup-straw
+        
 format:
   html:
     theme:

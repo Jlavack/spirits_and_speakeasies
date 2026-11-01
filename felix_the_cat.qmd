@@ -2,3 +2,52 @@
 title: "Daily Funnies"
 editor: visual
 ---
+
+# Felix on the farm
+
+![](assets/funnies/funny_1.png)
+
+<br>
+
+* * *
+
+<br>
+
+# Felix's Milk part 1
+
+![](assets/funnies/funny_2.png)
+
+<br>
+
+* * *
+
+<br>
+
+# Felix's Milk part 2
+
+
+<br>
+
+* * *
+
+<br>
+
+# No free lunch
+
+![](assets/funnies/funny_4.png)
+
+<br>
+
+* * *
+
+<br>
+
+# Cat nap
+
+![](assets/funnies/funny_5.png)
+
+<br>
+
+* * *
+
+<br>

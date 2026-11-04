@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./characters.html" class="sidebar-item-text sidebar-link"><i class="bi bi-person-walking" role="img">
 </i> 
- <span class="menu-text">Characters</span></a>
+ <span class="menu-text">Tarot</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -210,11 +210,23 @@ ul.task-list li input[type="checkbox"] {
 
       p.classList.remove('current', 'flipped', 'upcoming');
 
-      if (i < current)       p.classList.add('flipped');
+      p.style.zIndex = '';
 
-      else if (i === current) p.classList.add('current');
+      if (i < current) {
 
-      else                    p.classList.add('upcoming');
+        p.classList.add('flipped');
+
+      } else if (i === current) {
+
+        p.classList.add('current');
+
+      } else {
+
+        p.classList.add('upcoming');
+
+        p.style.zIndex = pages.length - i; // next page = highest, further = lower
+
+      }
 
     });
 
@@ -224,7 +236,9 @@ ul.task-list li input[type="checkbox"] {
 
     if (counter) counter.textContent = `${current + 1} / ${pages.length}`;
 
-  }
+  }   
+
+
 
 
 
@@ -246,7 +260,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-    const transitionPage = pages[target - (dir === 1 ? 0 : 1)];
+    /*const transitionPage = pages[target - (dir === 1 ? 0 : 1)];*/
+
+    /*const transitionPage = pages[current - dir];*/
+
+    const transitionPage = dir === 1 ? pages[current - 1] : pages[current];
 
     transitionPage.addEventListener('transitionend', function done(e) {
 

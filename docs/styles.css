@@ -12,7 +12,7 @@
 
 .flip-card {
   width: 100%;
-  aspect-ratio: 3 / 4;  /* same 300:400 ratio, but fluid */
+  aspect-ratio: 3 / 5;  /* same 300:400 ratio, but fluid */
   perspective: 1000px;
 }
 
@@ -38,13 +38,15 @@
   overflow: hidden;
 }
 
+/*
 .flip-card-front {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
+*/
 
-.flip-card-front .card-front-text {
+.flip-card-front .front-text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -55,6 +57,25 @@
   text-align: center;
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+.flip-card-front .front-text h1 {
+  font-size: 1.4rem;
+  margin: 0 0 0.1rem;
+}
+
+.flip-card-front .front-text h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.1rem;
+}
+
+.flip-card-front h2 a.anchorjs-link {
+  display: none;
+}
+
+.flip-card-front .front-text h3 {
+  font-size: 0.95rem;
+  margin: 0;
 }
 
 .flip-card-front img {

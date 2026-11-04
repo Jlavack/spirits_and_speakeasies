@@ -3,21 +3,26 @@ title: "Cocktail Menu"
 editor: visual
 ---
 
-Session 1: Moscow Mule - picking up illicit goods
-Session 2: Old fashioned - Drunk by ray before the chase
-Session 3: No 10. Manhattan - Train reference
-Session 4.: Spilt milk - Amalfi leaves
-Session 5: Poet's dream. Night market cocktail incoming
-Session 6: the one where we rescue the dude
-Session 7, 13/06/2026: Corpse Reviver - Dead rising in warehouse
-Session 8, 20/09/2026: The Last word - Alexi's death and a bitter last word from Dom
-Session 9, 27/09/2026: The Gypsy Queen
-Session 10, : 
-Session 11, 1/11/2026: 
+
 
 
 ```{=html}
 <div class="timeline">
+
+  <div class="timeline-item">
+    <div class="timeline-dot">
+      <img src="assets/cocktails/Blackberry_Raven.png" alt="Session 11">
+    </div>
+    <div class="timeline-name">Blackberry Raven</div>
+    <div class="timeline-details">
+      The Gypsy searches for the components of a spell that can kill the dead. Making enemies of ravens along the way. <br>
+      Tobias steals a car for Ray. <br>
+      Red  struggles to manage the gang, and intimidates youth gangs to find and return the lost fae booze. <br>
+      For every day they delay, the Gypsy will kill one of their number. <br>
+      The gypsy gets the fae lift working, only it takes him to a midnight realm where he must face a deadly flock <br>
+      of ravens while retrieving moonstones that have never seen the moon. <br>
+    </div>
+  </div>
 
   <div class="timeline-item">
     <div class="timeline-dot">

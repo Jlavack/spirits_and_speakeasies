@@ -1,59 +1,29 @@
 ---
-title: "Daily Funnies"
+title: "Stockton Star"
 editor: visual
 ---
 
-# Felix on the farm
 
-![](assets/funnies/funny_1.png)
+```{=html}
+<div class="page-turn" id="pageTurn">
+  <div class="page current">
+    <img src="assets/funnies/funny_1.png" alt="Session 1">
+  </div>
+  <div class="page upcoming">
+    <img src="assets/funnies/funny_2.png" alt="Session 2">
+  </div>
+  <div class="page upcoming">
+    <img src="assets/funnies/funny_4.png" alt="Session 3">
+  </div>
+  <div class="page upcoming">
+    <img src="assets/funnies/funny_5.png" alt="Session 5">
+  </div>
+</div>
 
-<br>
-
-* * *
-
-<br>
-
-# Felix's Milk part 1
-
-![](assets/funnies/funny_2.png)
-
-<br>
-
-* * *
-
-<br>
-
-# Felix's Milk part 2
-
-
-<br>
-
-* * *
-
-<br>
-
-# No free lunch
-
-![](assets/funnies/funny_4.png)
-
-<br>
-
-* * *
-
-<br>
-
-# Cat nap
-
-![](assets/funnies/funny_5.png)
-
-<br>
-
-* * *
-
-<br>
-
-
-
-
-Kitten driving a big chrysler vehicle. Beastly, like Cruella Devil's car. Third pane: crate of cans of tuna being traded for car. 
+<div class="page-turn-nav">
+  <button id="prevBtn">← Prev</button>
+  <button id="nextBtn">Next →</button>
+</div>
+<div class="page-turn-counter" id="counter"></div>
+```
 

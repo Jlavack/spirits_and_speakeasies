@@ -142,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./felix_the_cat.html" class="sidebar-item-text sidebar-link"><i class="bi bi-newspaper" role="img">
 </i> 
- <span class="menu-text">Daily Funnies</span></a>
+ <span class="menu-text">Newspaper</span></a>
   </div>
 </li>
     </ul>
@@ -175,8 +175,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Session 1: Moscow Mule - picking up illicit goods Session 2: Old fashioned - Drunk by ray before the chase Session 3: No 10. Manhattan - Train reference Session 4.: Spilt milk - Amalfi leaves Session 5: Poet’s dream. Night market cocktail incoming Session 6: the one where we rescue the dude Session 7, 13/06/2026: Corpse Reviver - Dead rising in warehouse Session 8, 20/09/2026: The Last word - Alexi’s death and a bitter last word from Dom Session 9, 27/09/2026: The Gypsy Queen Session 10, : Session 11, 1/11/2026:</p>
 <div class="timeline">
+
+  <div class="timeline-item">
+    <div class="timeline-dot">
+      <img src="assets/cocktails/Blackberry_Raven.png" alt="Session 11">
+    </div>
+    <div class="timeline-name">Blackberry Raven</div>
+    <div class="timeline-details">
+      The Gypsy searches for the components of a spell that can kill the dead. Making enemies of ravens along the way. <br>
+      Tobias steals a car for Ray. <br>
+      Red  struggles to manage the gang, and intimidates youth gangs to find and return the lost fae booze. <br>
+      For every day they delay, the Gypsy will kill one of their number. <br>
+      The gypsy gets the fae lift working, only it takes him to a midnight realm where he must face a deadly flock <br>
+      of ravens while retrieving moonstones that have never seen the moon. <br>
+    </div>
+  </div>
 
   <div class="timeline-item">
     <div class="timeline-dot">
@@ -186,7 +200,8 @@ ul.task-list li input[type="checkbox"] {
     <div class="timeline-details">
       The gang tries to enter the night market, but are denied. <br>
       Got to go get those fae booze they ditched. <br>
-      Dom has a car crash that puts him into coma. 
+      Dom has a car crash that puts him into coma. <br>
+      Ray meets the cartoonist of Felix.
     </div>
   </div>
 
@@ -301,10 +316,114 @@ ul.task-list li input[type="checkbox"] {
   </div>
 
 </div>
+<p>The List of items: Black candles, preferably beeswax &lt;- Got Graveyard soil, taken from an unmarked grave &lt;- go kill a guy and bury him. Then take that soil. Blood of the pure and willing &lt;- Silver coin minted in a year of death &lt;- 1917 year of death. Need 1913 Raven feather &lt;- Got Ashes of a burned love letter &lt;- got Ray’s letter. Tear of a banshee &lt;- Bone of a saint who was never canonised &lt;- someone who has been given the title ‘Blessed’. Or a local saint Water collected from the River that runs through the underworld &lt;- Whisper stolen from a sleeping god &lt;- Name of a person who has never existed &lt;- the Gypsy’s name Moonstone that has never seen moonlight &lt;- obtained a few shadow of a person who is not present &lt;- one of the souls possessing the Gypsy</p>
 
 
 
 </main> <!-- /main -->
+<script>
+
+(() => {
+
+  const container = document.getElementById('pageTurn');
+
+  if (!container) return;
+
+
+
+  const pages = [...container.querySelectorAll('.page')];
+
+  const prevBtn = document.getElementById('prevBtn');
+
+  const nextBtn = document.getElementById('nextBtn');
+
+  const counter = document.getElementById('counter');
+
+  let current = 0;
+
+  let animating = false;
+
+
+
+  function update() {
+
+    pages.forEach((p, i) => {
+
+      p.classList.remove('current', 'flipped', 'upcoming');
+
+      if (i < current)       p.classList.add('flipped');
+
+      else if (i === current) p.classList.add('current');
+
+      else                    p.classList.add('upcoming');
+
+    });
+
+    if (prevBtn) prevBtn.disabled = current === 0;
+
+    if (nextBtn) nextBtn.disabled = current === pages.length - 1;
+
+    if (counter) counter.textContent = `${current + 1} / ${pages.length}`;
+
+  }
+
+
+
+  function go(dir) {
+
+    if (animating) return;
+
+    const target = current + dir;
+
+    if (target < 0 || target >= pages.length) return;
+
+
+
+    animating = true;
+
+    current = target;
+
+    update();
+
+
+
+    const transitionPage = pages[target - (dir === 1 ? 0 : 1)];
+
+    transitionPage.addEventListener('transitionend', function done(e) {
+
+      if (e.propertyName !== 'transform') return;
+
+      transitionPage.removeEventListener('transitionend', done);
+
+      animating = false;
+
+    });
+
+  }
+
+
+
+  if (nextBtn) nextBtn.addEventListener('click', () => go(1));
+
+  if (prevBtn) prevBtn.addEventListener('click', () => go(-1));
+
+
+
+  document.addEventListener('keydown', e => {
+
+    if (e.key === 'ArrowRight') go(1);
+
+    if (e.key === 'ArrowLeft')  go(-1);
+
+  });
+
+
+
+  update();
+
+})();
+
+</script>   
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

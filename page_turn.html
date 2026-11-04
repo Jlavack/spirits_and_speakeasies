@@ -1,0 +1,61 @@
+<script>
+(() => {
+  const container = document.getElementById('pageTurn');
+  if (!container) return;
+
+  const pages = [...container.querySelectorAll('.page')];
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+  const counter = document.getElementById('counter');
+  let current = 0;
+  let animating = false;
+
+  function update() {
+    pages.forEach((p, i) => {
+      p.classList.remove('current', 'flipped', 'upcoming');
+      p.style.zIndex = '';
+      if (i < current) {
+        p.classList.add('flipped');
+      } else if (i === current) {
+        p.classList.add('current');
+      } else {
+        p.classList.add('upcoming');
+        p.style.zIndex = pages.length - i; // next page = highest, further = lower
+      }
+    });
+    if (prevBtn) prevBtn.disabled = current === 0;
+    if (nextBtn) nextBtn.disabled = current === pages.length - 1;
+    if (counter) counter.textContent = `${current + 1} / ${pages.length}`;
+  }   
+
+
+  function go(dir) {
+    if (animating) return;
+    const target = current + dir;
+    if (target < 0 || target >= pages.length) return;
+
+    animating = true;
+    current = target;
+    update();
+
+    /*const transitionPage = pages[target - (dir === 1 ? 0 : 1)];*/
+    /*const transitionPage = pages[current - dir];*/
+    const transitionPage = dir === 1 ? pages[current - 1] : pages[current];
+    transitionPage.addEventListener('transitionend', function done(e) {
+      if (e.propertyName !== 'transform') return;
+      transitionPage.removeEventListener('transitionend', done);
+      animating = false;
+    });
+  }
+
+  if (nextBtn) nextBtn.addEventListener('click', () => go(1));
+  if (prevBtn) prevBtn.addEventListener('click', () => go(-1));
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') go(1);
+    if (e.key === 'ArrowLeft')  go(-1);
+  });
+
+  update();
+})();
+</script>   

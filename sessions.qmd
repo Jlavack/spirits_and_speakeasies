@@ -106,7 +106,7 @@ editor: visual
     </div>
     <div class="timeline-name">Spilt Milk</div>
     <div class="timeline-details">
-      Amalfi want more pay. Doesn't realise Alexi wants him to join the gang proper. <br>
+      Amalfi wants more pay. He doesn't realise Alexi wants him to join the gang proper. <br>
       He runs. Someone has been messing with Golikov racketeering. <br>
       Red and Dom track down the Capitani dogs. <br>
       We introduce the Gypsy. 
@@ -134,6 +134,7 @@ editor: visual
     <div class="timeline-details">
       The gang kill Capitani thugs and Zapitovi and the brothel. <br>
       Returning with the goods. 
+      The cop shake down the hotel and Ray leads them away in a cross city car chase.
     </div>
   </div>
 

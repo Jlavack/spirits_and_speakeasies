@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./characters.html">Characters</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./characters.html">Tarot</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./characters.html" class="sidebar-item-text sidebar-link active"><i class="bi bi-person-walking" role="img">
 </i> 
- <span class="menu-text">Characters</span></a>
+ <span class="menu-text">Tarot</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -142,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./felix_the_cat.html" class="sidebar-item-text sidebar-link"><i class="bi bi-newspaper" role="img">
 </i> 
- <span class="menu-text">Daily Funnies</span></a>
+ <span class="menu-text">Newspaper</span></a>
   </div>
 </li>
     </ul>
@@ -354,6 +354,127 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
+<script>
+
+(() => {
+
+  const container = document.getElementById('pageTurn');
+
+  if (!container) return;
+
+
+
+  const pages = [...container.querySelectorAll('.page')];
+
+  const prevBtn = document.getElementById('prevBtn');
+
+  const nextBtn = document.getElementById('nextBtn');
+
+  const counter = document.getElementById('counter');
+
+  let current = 0;
+
+  let animating = false;
+
+
+
+  function update() {
+
+    pages.forEach((p, i) => {
+
+      p.classList.remove('current', 'flipped', 'upcoming');
+
+      p.style.zIndex = '';
+
+      if (i < current) {
+
+        p.classList.add('flipped');
+
+      } else if (i === current) {
+
+        p.classList.add('current');
+
+      } else {
+
+        p.classList.add('upcoming');
+
+        p.style.zIndex = pages.length - i; // next page = highest, further = lower
+
+      }
+
+    });
+
+    if (prevBtn) prevBtn.disabled = current === 0;
+
+    if (nextBtn) nextBtn.disabled = current === pages.length - 1;
+
+    if (counter) counter.textContent = `${current + 1} / ${pages.length}`;
+
+  }   
+
+
+
+
+
+  function go(dir) {
+
+    if (animating) return;
+
+    const target = current + dir;
+
+    if (target < 0 || target >= pages.length) return;
+
+
+
+    animating = true;
+
+    current = target;
+
+    update();
+
+
+
+    /*const transitionPage = pages[target - (dir === 1 ? 0 : 1)];*/
+
+    /*const transitionPage = pages[current - dir];*/
+
+    const transitionPage = dir === 1 ? pages[current - 1] : pages[current];
+
+    transitionPage.addEventListener('transitionend', function done(e) {
+
+      if (e.propertyName !== 'transform') return;
+
+      transitionPage.removeEventListener('transitionend', done);
+
+      animating = false;
+
+    });
+
+  }
+
+
+
+  if (nextBtn) nextBtn.addEventListener('click', () => go(1));
+
+  if (prevBtn) prevBtn.addEventListener('click', () => go(-1));
+
+
+
+  document.addEventListener('keydown', e => {
+
+    if (e.key === 'ArrowRight') go(1);
+
+    if (e.key === 'ArrowLeft')  go(-1);
+
+  });
+
+
+
+  update();
+
+})();
+
+</script>   
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

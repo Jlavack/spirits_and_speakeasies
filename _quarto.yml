@@ -15,22 +15,26 @@ website:
         text: Home
       - about.qmd
       - href: characters.qmd
-        text: Characters
+        text: Tarot
         icon: person-walking
       - href: sessions.qmd
         text: Cocktails
         icon: cup-straw
       - href: felix_the_cat.qmd
-        text: Daily Funnies
+        text: Newspaper
         icon: newspaper
         
 format:
   html:
+    include-after-body:
+      - page_turn.html
     theme:
       - cosmo
       - brand
     css: styles.css
     toc: true
+
+
 
 
 

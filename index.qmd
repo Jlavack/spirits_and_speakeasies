@@ -2,7 +2,8 @@
 title: "Spirits & Speakeasies"
 ---
 
-![](assests/secret-speakeasy.jpg)
+
+![](assets/secret_speakeasy.jpg)
 
 
 

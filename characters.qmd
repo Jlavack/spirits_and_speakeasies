@@ -1,5 +1,5 @@
 ---
-title: "Characters"
+title: ""
 editor: visual
 ---
 
@@ -7,88 +7,6 @@ editor: visual
 * * *
 
 # Player Characters:
-
-```{r, echo=FALSE}
-# <div class="card-row"
-#  
-#  <!-- Dom -->
-#   <div class="flip-card">
-#     <div class="flip-card-inner">
-#       <div class="flip-card-front">
-#         <img src="assets/dom_ooa.jpg" alt="Dominic">
-#       </div>
-#       <div class="flip-card-back">
-#         <h1>Dominic</h1>
-#         <h2>The Boss</h2>
-#         <p>Probably a werewolf.</p>
-#       </div>
-#     </div>
-#   </div>   
-#   
-#   <!-- Red -->
-#   <div class="flip-card">
-#     <div class="flip-card-inner">
-#       <div class="flip-card-front">
-#         <img src="assets/red.png" alt="Red">
-#       </div>
-#       <div class="flip-card-back">
-#         <h1>Red</h1>
-#         <h2>The Muscle</h2>
-#         <p>What're you lookin at?</p>
-#       </div>
-#     </div>
-#   </div>   
-#   
-#   <!-- Raymond -->
-#   <div class="flip-card">
-#     <div class="flip-card-inner">
-#       <div class="flip-card-front">
-#         <img src="assets/raymond.png" alt="Raymond">
-#       </div>
-#       <div class="flip-card-back">
-#         <h1>Raymond</h1>
-#         <h2>The Driver</h2>
-#         <p>Too old for this shit.</p>
-#       </div>
-#     </div>
-#   </div>   
-# 
-#   <!-- the gypsy -->
-#   <div class="flip-card">
-#     <div class="flip-card-inner">
-#       <div class="flip-card-front">
-#         <img src="assets/the_gypsy.jpeg" alt="The Gypsy">
-#       </div>
-#       <div class="flip-card-back">
-#         <h1>The Gypsy</h1>
-#         <h2></h2>
-#         <p>Death</p>
-#       </div>
-#     </div>
-#   </div>  
-#   
-#   <!-- Amalfi -->
-#   <div class="flip-card">
-#     <div class="flip-card-inner">
-#       <div class="flip-card-front">
-#         <img src="assets/amalfi_2.jpg" alt="Amalfi Agnolotti">
-#       </div>
-#       <div class="flip-card-back">
-#         <h1>Amalfi Agnolotti</h1>
-#         <h2>The Looks</h2>
-#         <p>Poon hound</p>
-#       </div>
-#     </div>
-#   </div>  
-#   
-# </div>
-```
-
-<br>
-<br>
-
-* * *
-* * *
 
 ```{=html}
 <div class="card-row">
@@ -175,6 +93,8 @@ editor: visual
 </div>
 ```
 
+<br>
+<br>
 
 * * *
 * * *

@@ -1,4 +1,7 @@
 /* css styles */
+/*=============================================*/
+/*======page background=====*/
+
 
 /*=============================================*/
 /* card rows */
@@ -191,7 +194,7 @@
 
 .timeline-name {
   font-size: 1.5rem;
-  color: #eebc51;
+  color: #c69e0c;
   margin-bottom: 0.25rem;
   margin-left: 3rem;
 }
@@ -199,10 +202,10 @@
 .timeline-details {
   display: none;
   background: #1a1a2e;
-  border: 1px solid #eebc51;
+  border: 1px solid #c69e0c;
   border-radius: 8px;
   padding: 2rem 1rem;
-  color: #eebc51;
+  color: #c69e0c;
   font-size: 0.95rem;
   line-height: 1.5;
   margin-top: 1.25rem;

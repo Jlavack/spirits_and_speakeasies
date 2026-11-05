@@ -1,0 +1,95 @@
+/*-- scss:defaults --*/
+$primary: #eebc51;
+$navbar-bg: rgba(25, 25, 112, 0.85);
+$navbar-fg: #ffffff;
+
+/*-- scss:rules --*/
+
+/* ===== Local Fonts ===== */
+@font-face {
+  font-family: "HeaderFont";
+  src: url("style/fonts/Parklane-DG2d.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BodyFont";
+  src: url("fonts/park-lane-font/party-at-gatsbys-font/PartyAtGatsbysRegular-PPBm.tff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ===== Page Background ===== */
+:root {
+  --page-bg-color: #1a1a2e;
+  --page-bg-image: none; /* override per page */
+}
+
+body {
+  background-color: var(--page-bg-color);
+  background-image: var(--page-bg-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* ===== Text Alignment (left by default) ===== */
+body,
+.quarto-content,
+p,
+h1, h2, h3, h4, h5, h6,
+li,
+blockquote {
+  text-align: left;
+}
+
+/* ===== Font Colors ===== */
+body, .quarto-content {
+  color: #eebc51;
+  font-family: "BodyFont", sans-serif;
+}
+
+a {
+  color: #66b3ff;
+  font-family: "BodyFont", sans-serif;
+}
+
+/* Page title (h1 / .title) */
+h1, .title {
+  color: #eebc51;
+  font-family: "HeaderFont", serif;
+}
+
+/* Other headers (h2–h6) */
+h2, h3, h4, h5, h6 {
+  color: #eebc51;
+  font-family: "HeaderFont", serif;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: $navbar-bg !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: $navbar-fg !important;
+  font-family: "BodyFont", sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #eebc51 !important;
+}
+
+/* ===== Per-page background image override =====
+   Add this to any .qmd file to set a background image:
+
+   <style>
+   :root { --page-bg-image: url("assets/images/hero.jpg"); }
+   </style>
+*/   

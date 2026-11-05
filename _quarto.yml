@@ -29,8 +29,7 @@ format:
     include-after-body:
       - page_turn.html
     theme:
-      - cosmo
-      - brand
+      - art_deco.scss
     css: styles.css
     toc: true
 

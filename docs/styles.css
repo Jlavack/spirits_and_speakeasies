@@ -1,4 +1,39 @@
 /* css styles */
+/*=============================================*/
+/*======page background=====*/
+body {
+  background-image: url("assets/page/page_frame.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #222; /* fallback color if image fails to load */
+}
+
+.navbar {
+  background-color: #191970 !important;
+}
+
+/* font colour*/
+h1, h2, h3 {
+  color: #eebc51;
+}
+
+/*links*/
+a {
+  color: #white;
+}
+
+/*nav bar*/
+.navbar {
+  color: #eebc51;
+}
+
+body, .quarto-content {
+  color: #eebc51 !important;
+}
+
+
 
 /*=============================================*/
 /* card rows */
@@ -191,7 +226,7 @@
 
 .timeline-name {
   font-size: 1.5rem;
-  color: #eebc51;
+  color: #c69e0c;
   margin-bottom: 0.25rem;
   margin-left: 3rem;
 }
@@ -199,10 +234,10 @@
 .timeline-details {
   display: none;
   background: #1a1a2e;
-  border: 1px solid #eebc51;
+  border: 1px solid #c69e0c;
   border-radius: 8px;
   padding: 2rem 1rem;
-  color: #eebc51;
+  color: #c69e0c;
   font-size: 0.95rem;
   line-height: 1.5;
   margin-top: 1.25rem;

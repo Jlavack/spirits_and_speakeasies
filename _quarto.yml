@@ -13,10 +13,13 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - about.qmd
+        icon: building-fill
+      - href: about.qmd
+        text: Stockton
+        icon: globe-americas
       - href: characters.qmd
-        text: Tarot
-        icon: person-walking
+        text: The Club
+        icon: door-closed
       - href: sessions.qmd
         text: Cocktails
         icon: cup-straw

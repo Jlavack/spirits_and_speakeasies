@@ -20,13 +20,23 @@
     ]
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Stockton",
+    "section": "",
+    "text": "The Aldermont Hotel Golikov HQ\n  \n\n  \n    \n    Ridgeback Hideout\n  \n\n  \n    \n    Zanatovi's Grave\n  \n  \n  \n    \n    Capitani Brothel\n  \n  \n  \n    \n    Gypsy Camp\n  \n  \n  \n    \n    Golikov Warehouse\n  \n  \n  \n    \n    Night Market",
+    "crumbs": [
+      "Stockton"
+    ]
+  },
+  {
     "objectID": "characters.html",
     "href": "characters.html",
-    "title": "Dominic",
+    "title": "The Club",
     "section": "",
-    "text": "Player Characters:\n\n\n  \n  \n    \n      \n        \n        \n        \n        The Boss\n        \n      \n      \n        \n      \n    \n  \n\n  \n  \n    \n      \n        \n        \n        Red\n        The Muscle\n        \n      \n      \n        \n      \n    \n  \n\n  \n  \n    \n      \n        \n        \n        Raymond\n        The Driver\n        \n      \n      \n        \n      \n    \n  \n\n  \n  \n    \n      \n        \n        \n        The Gypsy\n        \n      \n      \n        \n      \n    \n  \n\n  \n  \n    \n      \n        \n        \n        Amalfi\n        The Looks\n        \n      \n      \n        \n      \n    \n  \n\n\n \n\n\n\n\nNon-player Characters\n\n  \n    \n      \n        \n        \n        Golikov Alexi\n        The Boss\n        \n      \n      \n        \n      \n    \n     \n  \n  \n  \n    \n      \n        \n        \n        Golikov Anastasia\n        The Boss\n        \n      \n      \n        \n        AWOOGA!\n      \n    \n     \n  \n  \n  \n    \n      \n        \n        \n        Golikov Anastasia\n        The Princess\n        \n      \n      \n        \n      \n    \n     \n\n  \n  \n    \n      \n        \n        \n        Zanatovi Capitani\n        The Big Bad\n        \n      \n      \n        \n      \n    \n    \n  \n  \n  \n    \n      \n        \n        \n        Felix\n        The Cat\n        \n      \n      \n        \n      \n    \n    \n  \n  \n  \n    \n      \n        \n        \n        Gypsy Matron\n        Fortune Teller",
+    "text": "Player Characters:\n\n\n  \n  \n    \n      \n        \n        \n        Dominic\n        The Bull Dog\n        \n      \n      \n        \n      \n    \n  \n\n  \n  \n    \n      \n        \n        \n        Red\n        The Muscle\n        \n      \n      \n        \n      \n    \n  \n\n  \n  \n    \n      \n        \n        \n        Raymond Cochrane\n        The Driver\n        \n      \n      \n        \n      \n    \n  \n\n  \n  \n    \n      \n        \n        \n        The Gypsy\n        \n      \n      \n        \n      \n    \n  \n\n  \n  \n    \n      \n        \n        \n        Tobias\n        The Thief\n        \n      \n      \n        \n      \n    \n  \n\n  \n  \n    \n      \n        \n        \n        Amalfi\n        The Looks\n        \n      \n      \n        \n      \n    \n  \n\n\n\n\n\nNon-player Characters\n\n  \n    \n      \n        \n        \n        Golikov Alexi\n        The Boss\n        \n      \n      \n        \n      \n    \n     \n  \n  \n  \n    \n      \n        \n        \n        Golikov Anastasia\n        The Boss\n        \n      \n      \n        \n        AWOOGA!\n      \n    \n     \n  \n  \n  \n    \n      \n        \n        \n        Golikov Anastasia\n        The Princess\n        \n      \n      \n        \n      \n    \n     \n\n  \n  \n    \n      \n        \n        \n        Zanatovi Capitani\n        The Big Bad\n        \n      \n      \n        \n      \n    \n    \n  \n  \n  \n    \n      \n        \n        \n        Felix\n        The Cat\n        \n      \n      \n        \n      \n    \n    \n  \n  \n  \n    \n      \n        \n        \n        Gypsy Matron\n        Fortune Teller",
     "crumbs": [
-      "Tarot"
+      "The Club"
     ]
   },
   {
@@ -34,7 +44,7 @@
     "href": "index.html",
     "title": "Spirits & Speakeasies",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "text": "logo\n\n\n\n\n [1] \"emerald green\"    \"#005C4A\"          \"#0E3B3A\"          \"#7FB7A5\"         \n [5] \"#0E7C86\"          \"midnight blue:\"   \"#191970\"          \"Rich black:\"     \n [9] \"#090806\"          \"Charcoal Black:\"  \"#17120D\"          \"Dark bronze:\"    \n[13] \"#312317\"          \"Antique Gold:\"    \"#8D6A3A\"          \"Warm gold:\"      \n[17] \"#B48A4F\"          \"Champagne Gold:\"  \"#D2B47A\"          \"Pale Ivory Gold:\"\n[21] \"#E7D6AB\"          \"Deep burgundy:\"   \"#351414\"          \"Wine Red:\"       \n[25] \"#52201B\"          \"Cocktail Garnet:\" \"#6A251D\"          \"Copper brown:\"   \n[29] \"#70482B\"          \"Muted Brass:\"     \"#9E7640\"          \"#3A1F2B\"         \n[33] \"#8D3B5A\"          \"#F7F0E6\"          \"#D8C3A5\"          \"#7A1E2D\"         \n[37] \" #F2D6C2\"         \"#0A1B3D\"          \"#1C3F8A\"          \"#F3D4CF\"         \n[41] \"#E9B4A8\"          \"#1A1024\"          \"#5D2D86\"         \n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
     "crumbs": [
       "Home"
     ]

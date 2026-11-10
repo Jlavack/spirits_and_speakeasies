@@ -1,53 +1,82 @@
 /*-- scss:defaults --*/
-$primary: #eebc51;
+$primary: #D2B47A;
 $navbar-bg: rgba(25, 25, 112, 0.85);
 $navbar-fg: #ffffff;
+$sidebar-bg: rgba(53, 20, 20, 0.85);
+$sidebar-fg: #D2B47A;
 
 /*-- scss:rules --*/
 
 /* ===== Local Fonts ===== */
 @font-face {
   font-family: "HeaderFont";
-  src: url("style/fonts/park-lane-font/park-lane-font/Parklane-DG2d.ttf") format("truetype");
+  src: url("fonts/ParkLaneNf-pRdR.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "BodyFont";
-  src: url("fonts/park-lane-font/party-at-gatsbys-font/PartyAtGatsbysRegular-PPBm.tff") format("truetype");
+  src: url("fonts/PartyAtGatsbysRegular-PPBm.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: "BodyFont_2";
+  src: url("fonts/TheDecoNoir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: rgba(25, 25, 112, 0.85) !important;
+}
+
+#quarto-sidebar {
+  font-family: "HeaderFont", serif !important;
+}
+
+/*side bar heading*/
+#quarto-sidebar .sidebar-title a {
+  font-size: 30px;
+  font-family: "HeaderFont", serif !important;
+}
+
+/*side bar links */
+#quarto-sidebar .sidebar-item-text {
+  font-family: "BodyFont", sans-serif !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Section headers within the sidebar */
+#quarto-sidebar .sidebar-item-section > .sidebar-item-container {
+  font-family: "BodyFont", sans-serif !important;
+  font-size: 1.5rem;
+  //font-weight: bold;
+}
+
+
+
 /* ===== Page Background ===== */
 :root {
-  --page-bg-color: #1a1a2e;
-  --page-bg-image: none; /* override per page */
+  --page-bg-color: #090806; //#1a1a2e;
+  --page-bg-image: url("assets/page/border.png");; /* override per page */
 }
 
 body {
   background-color: var(--page-bg-color);
   background-image: var(--page-bg-image);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
 }
 
-/* ===== Text Alignment (left by default) ===== */
-body,
-.quarto-content,
-p,
-h1, h2, h3, h4, h5, h6,
-li,
-blockquote {
-  text-align: left;
-}
-
 /* ===== Font Colors ===== */
 body, .quarto-content {
-  color: #eebc51;
+  color: #D2B47A;
   font-family: "BodyFont", sans-serif;
 }
 
@@ -58,13 +87,13 @@ a {
 
 /* Page title (h1 / .title) */
 h1, .title {
-  color: #eebc51;
+  color: #D2B47A;
   font-family: "HeaderFont", serif;
 }
 
 /* Other headers (h2–h6) */
 h2, h3, h4, h5, h6 {
-  color: #eebc51;
+  color: #D2B47A;
   font-family: "HeaderFont", serif;
 }
 
@@ -83,12 +112,23 @@ h2, h3, h4, h5, h6 {
 }
 
 .navbar-nav .nav-link:hover {
-  color: #eebc51 !important;
+  color: #D2B47A !important;
 }
+
+
 
 /* ===== Per-page background image override =====
    Add this to any .qmd file to set a background image:
 
+In front matter
+
+header-includes:
+  - text: |
+      <style>
+      :root { --page-bg-image: url("assets/images/hero.jpg"); }
+      </style>
+      
+ or in body     
    <style>
    :root { --page-bg-image: url("assets/images/hero.jpg"); }
    </style>

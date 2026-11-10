@@ -1,10 +1,8 @@
 ---
-title: ""
+title: "The Club"
 editor: visual
 ---
 
-* * *
-* * *
 
 # Player Characters:
 
@@ -18,7 +16,7 @@ editor: visual
         <img src="assets/dom_ooa.jpg" alt="Dominic">
         <div class="front-text">
         <h1>Dominic</h1>
-        <h2>The Boss</h2>
+        <h2>The Bull Dog</h2>
         </div>
       </div>
       <div class="flip-card-back">
@@ -38,7 +36,7 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/strength.jpg" alt="Red back">
+        <img src="assets/tarot/strength.png" alt="Red back">
       </div>
     </div>
   </div>
@@ -47,14 +45,14 @@ editor: visual
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="assets/raymond.png" alt="Raymond">
+        <img src="assets/raymond.png" alt="Raymond Cochrane">
         <div class="front-text">
-        <h1>Raymond</h1>
+        <h1>Raymond Cochrane</h1>
         <h2>The Driver</h2>
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/chariot.jpg" alt="Raymond back">
+        <img src="assets/tarot/chariot.png" alt="Raymond back">
       </div>
     </div>
   </div>
@@ -69,7 +67,23 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/death.jpg" alt="The Gypsy back">
+        <img src="assets/tarot/death.png" alt="The Gypsy back">
+      </div>
+    </div>
+  </div>
+
+  <!-- Tobias -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="assets/tobias.png" alt="Tobias">
+        <div class="front-text">
+        <h1>Tobias</h1>
+        <h2>The Thief</h2>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <img src="assets/tarot/fool.png" alt="Tobias back">
       </div>
     </div>
   </div>
@@ -93,14 +107,13 @@ editor: visual
 </div>
 ```
 
-<br>
-<br>
 
-* * *
-* * *
+
+![](assets/page/divider.png)
+
+
 
 # Non-player Characters
-
 
 ```{=html}
 <div class="card-row"

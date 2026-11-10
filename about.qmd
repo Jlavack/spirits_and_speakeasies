@@ -1,4 +1,49 @@
 ---
-title: "About"
+title: "Stockton"
 ---
+
+```{=html}
+<div class="map-container">
+  <img src="assets/stockton_map.png" alt="Map" />
+
+  <div class="pin" style="top: 32.5%; left: 47.5%; ">
+    <img class="pin-dot" src="assets/page/pin.png" alt="" />
+    <span class="pin-tooltip">The Aldermont Hotel <br>Golikov HQ</span>
+  </div>
+
+  <div class="pin" style="top: 80%; left: 62.5%; ">
+    <img class="pin-dot" src="assets/page/pin.png" alt="" />
+    <span class="pin-tooltip">Ridgeback Hideout</span>
+  </div>
+
+  <div class="pin" style="top: 80%; left: 25%;">
+    <img class="pin-dot" src="assets/page/pin.png" alt="" />
+    <span class="pin-tooltip">Zanatovi's Grave</span>
+  </div>
+  
+  <div class="pin" style="top: 43%; left: 40%;">
+    <img class="pin-dot" src="assets/page/pin.png" alt="" />
+    <span class="pin-tooltip">Capitani Brothel</span>
+  </div>
+  
+  <div class="pin" style="top: 90%; left: 5%;">
+    <img class="pin-dot" src="assets/page/left-arrow.png" alt="" />
+    <span class="pin-tooltip">Gypsy Camp</span>
+  </div>
+  
+  <div class="pin" style="top: 71%; left: 44%;">
+    <img class="pin-dot" src="assets/page/pin.png" alt="" />
+    <span class="pin-tooltip">Golikov Warehouse</span>
+  </div>
+  
+  <div class="pin" style="top: 80%; left: 60%;">
+    <img class="pin-dot" src="assets/page/pin.png" alt="" />
+    <span class="pin-tooltip">Night Market</span>
+  </div>
+  
+  
+</div>
+```
+
+
 

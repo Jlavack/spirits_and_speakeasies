@@ -13,10 +13,16 @@ editor: visual
     <img src="assets/funnies/funny_2.png" alt="Session 2">
   </div>
   <div class="page upcoming">
-    <img src="assets/funnies/funny_4.png" alt="Session 3">
+    <img src="assets/funnies/funny_3.png" alt="Session 3">
+  </div>
+  <div class="page upcoming">
+    <img src="assets/funnies/funny_4.png" alt="Session 4">
   </div>
   <div class="page upcoming">
     <img src="assets/funnies/funny_5.png" alt="Session 5">
+  </div>
+  <div class="page upcoming">
+    <img src="assets/funnies/funny_11.png" alt="Session 11">
   </div>
 </div>
 

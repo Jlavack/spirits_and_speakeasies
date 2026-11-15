@@ -11,6 +11,8 @@ body {
 
 ![logo](assets/page/home_page.png){#logo-img style="display:none"}
 ```{r, echo=FALSE}
+#| include: false
+#| 
 c(
 "emerald green", "#005C4A",
 "#0E3B3A", "#7FB7A5", "#0E7C86",
@@ -32,6 +34,25 @@ c(
 )
 
 ```
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 This is a Quarto website.

@@ -20,7 +20,7 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/heirophant.jpg" alt="Dominic back">
+        <img src="assets/tarot/moon.png" alt="Dominic back">
       </div>
     </div>
   </div>
@@ -99,7 +99,7 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/lovers.jpg" alt="Amalfi back">
+        <img src="assets/tarot/lovers.png" alt="Amalfi back">
       </div>
     </div>
   </div>
@@ -129,7 +129,7 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/emperor.jpg" alt="Alexi back">
+        <img src="assets/tarot/emperor.png" alt="Alexi back">
       </div>
     </div>
   </div>   
@@ -145,7 +145,7 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/queen_rings.jpg" alt="anastasia back">
+        <img src="assets/tarot/queen_cups.png" alt="anastasia back">
         <p>AWOOGA!</p>
       </div>
     </div>
@@ -162,7 +162,7 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/page_ring.jpg" alt="anna back">
+        <img src="assets/tarot/page_ring.png" alt="anna back">
       </div>
     </div>
   </div>   
@@ -178,7 +178,7 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/hanged_man.jpg" alt="zanatovi back">
+        <img src="assets/tarot/hanged_man.png" alt="zanatovi back">
       </div>
     </div>
   </div>  
@@ -194,7 +194,7 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/moon.jpg" alt="felix back">
+        <img src="assets/tarot/hermit.png" alt="felix back">
       </div>
     </div>
   </div>  
@@ -210,7 +210,7 @@ editor: visual
         </div>
       </div>
       <div class="flip-card-back">
-        <img src="assets/tarot/magician.jpg" alt="gypsy matron back">
+        <img src="assets/tarot/magician.png" alt="gypsy matron back">
       </div>
     </div>
   </div>  
